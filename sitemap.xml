@@ -36,6 +36,12 @@
   </url>
   
   <url>
+    <loc>https://imposing1923.github.io/post/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://imposing1923.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
