@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notre-Dame de Paris</title>
+    <title>Even - A super concise theme for Hugo</title>
     <link>https://imposing1923.github.io/</link>
-    <description>Recent content on Notre-Dame de Paris</description>
+    <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Mon, 09 Dec 2019 14:48:42 +0800</lastBuildDate>
     
 	<atom:link href="https://imposing1923.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -17,8 +17,7 @@
       <pubDate>Mon, 09 Dec 2019 14:48:42 +0800</pubDate>
       
       <guid>https://imposing1923.github.io/posts/build-hugo/</guid>
-      <description>我是在ubuntu上搭建hugo博客的
-1.首先，安装hugo。 sudo apt install hugo  hugo new site newblog  cd newblog git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &#39;theme = &amp;quot;ananke&amp;quot;&#39; &amp;gt;&amp;gt; config.toml # 或者，编辑config.toml，在最后加入 theme = &amp;quot;ananke&amp;quot;  hugo new posts/first-post.md  hugo server -D hugo  2.将hugo部署到github pages git config --global user.name &amp;quot;yourname&amp;quot; git config --global user.email &amp;quot;youremail&amp;quot;  git config user.name git config user.email  ssh-keygen -t rsa -C &amp;quot;youremail&amp;quot;  ssh-keygen -t rsa -C &amp;quot;youremail&amp;quot;  首先，创建两个仓库，分别名为your-blog和username.</description>
+      <description>我是在ubuntu上搭建hugo博客的 1.首先，安装hugo。 1 sudo apt install hugo 1 hugo new site newblog 1 2 3 4 5 cd newblog git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo &amp;#39;theme = &amp;#34;ananke&amp;#34;&amp;#39; &amp;gt;&amp;gt; config.toml # 或者，编辑confi</description>
     </item>
     
     <item>

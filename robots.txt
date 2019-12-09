@@ -1,5 +1,2 @@
 User-agent: *
-# robotstxt.org - if ENV production variable is false robots will be disallowed.
-
-  Disallow: /
-
+Sitemap: https://imposing1923.github.io/sitemap.xml
