@@ -25,21 +25,22 @@
 
     
     
-      <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="Notre-Dame de Paris" />
-      <link href="/categories/index.xml" rel="feed" type="application/rss+xml" title="Notre-Dame de Paris" />
+      <link href="/posts/index.xml" rel="alternate" type="application/rss+xml" title="Notre-Dame de Paris" />
+      <link href="/posts/index.xml" rel="feed" type="application/rss+xml" title="Notre-Dame de Paris" />
       
     
     
-    <meta property="og:title" content="Categories" />
+    <meta property="og:title" content="Posts" />
 <meta property="og:description" content="The last theme you&#39;ll ever need. Maybe." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://imposing1923.github.io/categories/" />
+<meta property="og:url" content="https://imposing1923.github.io/posts/" />
 
-<meta itemprop="name" content="Categories">
+<meta property="og:updated_time" content="2019-12-09T14:48:42+08:00" />
+<meta itemprop="name" content="Posts">
 <meta itemprop="description" content="The last theme you&#39;ll ever need. Maybe.">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:title" content="Posts"/>
 <meta name="twitter:description" content="The last theme you&#39;ll ever need. Maybe."/>
 
   </head>
@@ -108,7 +109,7 @@
 
       <div class="tc-l pv4 pv6-l ph3 ph4-ns">
         <h1 class="f2 f-subheadline-l fw2 white-90 mb0 lh-title">
-          Categories
+          Posts
         </h1>
         
       </div>
@@ -118,17 +119,44 @@
 
     <main class="pb7" role="main">
       
-    
-  <article class="cf pa3 pa4-m pa4-l">
-    <div class="measure-wide-l center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">
+  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    <section class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray"></section>
+    <section class="flex-ns flex-wrap justify-around mt5">
       
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://imposing1923.github.io/posts/build-hugo/" class="link black dim">
+        Build Hugo
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+      我是在ubuntu上搭建hugo博客的
+1.首先，安装hugo。 sudo apt install hugo  hugo new site newblog  cd newblog git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke echo 'theme = &quot;ananke&quot;' &gt;&gt; config.toml # 或者，编辑config.toml，在最后加入 theme = &quot;ananke&quot;  hugo new posts/first-post.md  hugo server -D hugo  2.将hugo部署到github pages git config --global user.name &quot;yourname&quot; git config --global user.email &quot;youremail&quot;  git config user.name git config user.email  ssh-keygen -t rsa -C &quot;youremail&quot;  ssh-keygen -t rsa -C &quot;youremail&quot;  首先，创建两个仓库，分别名为your-blog和username.
     </div>
-  </article>
-  <div class="mw8 center">
-    <section class="ph4">
+  </div>
+</div>
+</div>
+      
+        <div class="relative w-100 w-30-l mb4 bg-white"><div class="relative w-100 mb4 bg-white nested-copy-line-height">
+  <div class="bg-white mb3 pa4 gray overflow-hidden">
+    <span class="f6 db">Posts</span>
+    <h1 class="f3 near-black">
+      <a href="https://imposing1923.github.io/posts/first-post/" class="link black dim">
+        First Post
+      </a>
+    </h1>
+    <div class="nested-links f5 lh-copy nested-copy-line-height">
+       Hello! 
+    </div>
+  </div>
+</div>
+</div>
       
     </section>
-  </div>
+
+</article>
 
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
